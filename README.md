@@ -20,7 +20,7 @@ Since the data is large (>4GB) and cannot be uploaded on Github, contact boyuyan
 - `Filter.py`: functions to pick the stock at the end of every trading cycle according to the calculated factors 
 - `Evaluate.py`: functions to plot the result
 - `visualization.py`: read the HDF5 file, calculate factor values, pick the stocks for each trading cycle, and obtain the strategy performance
-- `markdown_template.md: template for generating the markdown report
+- `markdown_template.md`: template for generating the markdown report
 - `auto_markdown.py`: automatically generate the final report according to the script `Filter.py`, `CalcFactor.py`, `Config.py` and the markdown template
 - `Bradley_result.md`: final report for the current research strategy
 
