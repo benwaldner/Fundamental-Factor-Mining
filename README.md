@@ -1,2 +1,2 @@
-# Financial-Factor-Stock-Picking
-Stock picking strategies research based on aggregated financial factors.
+# 基于财务因子的选股策略
+此处记录
