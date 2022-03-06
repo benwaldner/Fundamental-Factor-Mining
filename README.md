@@ -26,6 +26,6 @@ Since the data is large (>4GB) and cannot be uploaded on Github, contact boyuyan
 
 
 ### Notes
-- The current achieved RoMaD is 1.42, with annually return 56.1\% and maximum drawdown -39.45\%. We update the portfolio **monthly** (since the update for financial information is typically very slow), and choose only **three stocks** with the highest overall weighted factor values. Commission fee of 1.2bps is deducted on both sides of each transaction. The stamp duty is set to be 0.1\%. The results are shown under the folder `strategy_result`.
+- The currently achieved RoMaD is 1.42, with annually return 56.1\% and maximum drawdown -39.45\%. We update the portfolio **monthly** (since the update for financial information is typically very slow), and choose only **three stocks** with the highest overall weighted factor values. Commission fee of 1.2bps is deducted on both sides of each transaction. The stamp duty is set to be 0.1\%. The results are shown under the folder `strategy_result`.
 - The framework can be reused for further research of fianancial factors, adjust model parameters, and change the default settings
 - If you have questions regarding any script or want the source data for personal use, contact boyuyang@link.cuhk.edu.cn for details
