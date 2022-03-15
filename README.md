@@ -24,6 +24,28 @@ Since the data is large (>4GB) and cannot be uploaded on Github, contact boyuyan
 - `auto_markdown.py`: automatically generate the final report according to the script `Filter.py`, `CalcFactor.py`, `Config.py` and the markdown template
 - `Bradley_result.md`: final report for the current research strategy
 
+### Results:
+- Graph:
+<img src="./figures/strategy_M.png" width="650">
+
+- Performance Metrics:
+| Metrics                    | Value               |
+|:--------------------------:|:-------------------:|
+| Cumulative Return          | 204.49              |
+| Annualized Return          | 56.1%               |
+| MDD                        | -39.45%             |
+| MDD Begin                  | 2011-05-03 00:00:00 |
+| MDD End                    | 2012-01-05 00:00:00 |
+| RoMaD                      | 1.42                |
+| Win Period                 | 97.0                |
+| Loss Period                | 47.0                |
+| Win Ratio                  | 67.36%              |
+| Avg Return per Cycle       | 4.22%               |
+| Calmar                     | 1.67                |
+| Max Return per Cycle       | 60.31%              |
+| Min Return per Cycle       | -18.31%             |
+| Max Continuous Win Period  | 10.0                |
+| Max Continuous Loss Period | 5.0                 |
 
 ### Notes
 - The currently achieved RoMaD is 1.42, with annually return 56.1\% and maximum drawdown -39.45\%. We update the portfolio **monthly** (since the update for financial information is typically very slow), and choose only **three stocks** with the highest overall weighted factor values. Commission fee of 1.2bps is deducted on both sides of each transaction. The stamp duty is set to be 0.1\%. The results are shown under the folder `strategy_result`.
