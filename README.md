@@ -25,7 +25,7 @@ Since the data is large (>4GB) and cannot be uploaded on Github, contact boyuyan
 - `Bradley_result.md`: final report for the current research strategy
 
 ### Results Overview
-<img src="./figures/strategy_M.png" width="900">
+<img src="./figures/strategy_M.png" width="800">
 
 - Performance Metrics:
 
