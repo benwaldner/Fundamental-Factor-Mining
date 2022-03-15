@@ -26,9 +26,10 @@ Since the data is large (>4GB) and cannot be uploaded on Github, contact boyuyan
 
 ### Results:
 - Graph:
-<img src="./figures/strategy_M.png" width="650">
+<img src="./figures/strategy_M.png" width="1000">
 
 - Performance Metrics:
+
 | Metrics                    | Value               |
 |:--------------------------:|:-------------------:|
 | Cumulative Return          | 204.49              |
