@@ -24,7 +24,7 @@ Since the data is large (>4GB) and cannot be uploaded on Github, contact boyuyan
 - `auto_markdown.py`: automatically generate the final report according to the script `Filter.py`, `CalcFactor.py`, `Config.py` and the markdown template
 - `Bradley_result.md`: final report for the current research strategy
 
-### Results:
+### Results Overview
 <img src="./figures/strategy_M.png" width="900">
 
 - Performance Metrics:
