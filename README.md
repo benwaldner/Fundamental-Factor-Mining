@@ -25,8 +25,7 @@ Since the data is large (>4GB) and cannot be uploaded on Github, contact boyuyan
 - `Bradley_result.md`: final report for the current research strategy
 
 ### Results:
-- Graph:
-<img src="./figures/strategy_M.png" width="1000">
+<img src="./figures/strategy_M.png" width="900">
 
 - Performance Metrics:
 
@@ -47,6 +46,27 @@ Since the data is large (>4GB) and cannot be uploaded on Github, contact boyuyan
 | Min Return per Cycle       | -18.31%             |
 | Max Continuous Win Period  | 10.0                |
 | Max Continuous Loss Period | 5.0                 |
+
+- Annual Result:
+
+| Trade Period (year) | Cumulative Period Return | Cumulative Return (Benchmark Index) | Excess Return |
+|:-------------------:|:------------------------:|:-----------------------------------:|:-------------:|
+| 2010-12-31          | 69.09%                   | -2.37%                              | 71.46%        |
+| 2011-12-31          | -10.51%                  | -25.01%                             | 14.50%        |
+| 2012-12-31          | 32.53%                   | 7.55%                               | 24.98%        |
+| 2013-12-31          | 120.82%                  | -7.65%                              | 128.47%       |
+| 2014-12-31          | 139.19%                  | 51.66%                              | 87.53%        |
+| 2015-12-31          | 304.13%                  | 5.58%                               | 298.55%       |
+| 2016-12-31          | 43.50%                   | -11.28%                             | 54.78%        |
+| 2017-12-31          | 7.52%                    | 21.78%                              | -14.25%       |
+| 2018-12-31          | -10.00%                  | -25.31%                             | 15.31%        |
+| 2019-12-31          | 39.49%                   | 36.07%                              | 3.42%         |
+| 2020-12-31          | 39.01%                   | 27.21%                              | 11.80%        |
+| 2021-12-31          | 72.08%                   | -5.20%                              | 77.27%        |
+| 2022-12-31          | 3.11%                    | -1.95%                              | 5.06%         |
+
+
+
 
 ### Notes
 - The currently achieved RoMaD is 1.42, with annually return 56.1\% and maximum drawdown -39.45\%. We update the portfolio **monthly** (since the update for financial information is typically very slow), and choose only **three stocks** with the highest overall weighted factor values. Commission fee of 1.2bps is deducted on both sides of each transaction. The stamp duty is set to be 0.1\%. The results are shown under the folder `strategy_result`.
