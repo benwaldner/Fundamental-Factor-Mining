@@ -1,4 +1,4 @@
-# Stock Picking Strategies Based on Financial Factors
+# Stock Selection Based on Fundamental Factors
 
 ### Introduction
 This project is an individual quant trading strategy research for a hedge fund manager. It builds a rigorous framework to backtest the effectiveness of a total of more than 1000 financial factors (ROE, PE, etc.) on the China A-share market. These factors are basic raw data from financial statements, balance sheets, income statement..... Many "derivative" financial factors, such as TTM value, year-on-year, month-on-month, etc., will be calculated manually in `CalcFactor.py`.
